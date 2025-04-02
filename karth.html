@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Fashion Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        
+        .banner {
+            background-color: #ddd;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        .product-section {
+            margin: 30px 0;
+        }
+        
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+        }
+        
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .product-title {
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .product-price {
+            color: #e53935;
+            font-weight: bold;
+        }
+        
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KK - Mens Wear</h1>
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shirts</a>
+        <a href="#">Pants</a>
+        <a href="#">Shoes</a>
+        <a href="#">Sale</a>
+        <a href="#">Contact</a>
+    </nav>
+    
+    <div class="banner">
+        <h2> Exclusive Collection 2025</h2>
+        <p>Great styles at affordable prices</p>
+        <a href="#" class="button">Shop Now</a>
+    </div>
+    
+    <div class="container">
+        <div class="product-section">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="bw.jpeg.jpeg">
+                    <div class="product-title">Blue Formal Shirt</div>
+                    <div class="product-price">$45.99</div>
+                    <button class="button">Add to Cart</button>
+                </div>
+                
+                <div class="product">
+                    <img src="blak.jpeg.jpeg" alt="Black Jeans">
+                    <div class="product-title">Black Jeans</div>
+                    <div class="product-price">$39.99</div>
+                    <button class="button">Add to Cart</button>
+                </div>
+                
+                <div class="product">
+                    <img src="lj.jpeg.jpeg" alt="Leather Jacket">
+                    <div class="product-title">Leather Jacket</div>
+                    <div class="product-price">$129.99</div>
+                    <button class="button">Add to Cart</button>
+                </div>
+                
+                <div class="product">
+                    <img src="cs.jpeg.jpeg" alt="Casual Shoes">
+                    <div class="product-title">Casual Shoes</div>
+                    <div class="product-price">$75.99</div>
+                    <button class="button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="product-section">
+            <h2>New Arrivals</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="wh.jpeg.jpeg" alt="white t shirt">
+                    <div class="product-title">White T-Shirt</div>
+                    <div class="product-price">$19.99</div>
+                    <button class="button">Add to Cart</button>
+                </div>
+                
+                <div class="product">
+                    <img src="bc.jpeg.jpeg" alt="Brown Chinos">
+                    <div class="product-title">Brown Chinos</div>
+                    <div class="product-price">$49.99</div>
+                    <button class="button">Add to Cart</button>
+                </div>
+                
+                <div class="product">
+                    <img src="Wool.jpeg.jpeg" alt="Wool Sweater">
+                    <div class="product-title">Wool Sweater</div>
+                    <div class="product-price">$59.99</div>
+                    <button class="button">Add to Cart</button>
+                </div>
+                
+                <div class="product">
+                    <img src="beltjpeg.jpeg" alt="Leather Belt">
+                    <div class="product-title">Leather Belt</div>
+                    <div class="product-price">$29.99</div>
+                    <button class="button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="product-section">
+            <h2>Special Offers</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="denims.jpeg.jpeg" alt="Denim Jacket">
+                    <div class="product-title">Denim Jacket</div>
+                    <div class="product-price"><s>$89.99</s> $69.99</div>
+                    <button class="button">Add to Cart</button>
+                </div>
+                
+                <div class="product">
+                    <img src="pool.jpeg.jpeg" alt="Polo Shirt">
+                    <div class="product-title">Polo Shirt</div>
+                    <div class="product-price"><s>$35.99</s> $24.99</div>
+                    <button class="button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div>
+            <h3>Contact Us</h3>
+            <p>Email: info@mensfashionstore.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+        <div>
+            <p>&copy; 2025 Men's Fashion Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
